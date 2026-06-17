@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beyblade Shop Watcher</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app">
+    <header class="page-header">
+      <h1>Beyblade Shop Watcher</h1>
+      <p class="subtitle">Track online shops and get notified when your keywords appear.</p>
+    </header>
+
+    <div class="content-panels">
+      <section class="left-panel-stack">
+        <section class="panel">
+          <h2>Tracked Shops</h2>
+          <div id="shop-list" class="shop-list"></div>
+        </section>
+
+        <section class="panel">
+          <h2>Tracked Keywords</h2>
+          <ul id="keyword-list" class="tag-list"></ul>
+        </section>
+
+        <section class="panel">
+          <h2>Add Shop URL</h2>
+          <form id="url-form" class="form-row">
+            <input id="url-input" type="url" placeholder="https://shop.example.com/products" required />
+            <button type="submit">Add URL</button>
+          </form>
+        </section>
+
+        <section class="panel">
+          <h2>Add Search Keyword</h2>
+          <form id="keyword-form" class="form-row">
+            <input id="keyword-input" type="text" placeholder="e.g. draciel, ux-01" required />
+            <button type="submit">Add Keyword</button>
+          </form>
+        </section>
+      </section>
+
+      <section class="panel notifications-panel">
+        <h2>Notifications</h2>
+        <ul id="notification-list" class="notification-list"></ul>
+      </section>
+    </div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
