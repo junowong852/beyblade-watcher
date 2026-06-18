@@ -5,11 +5,16 @@ const presetShopUrls = [
   "https://www.tclub.com.hk/collections/%E7%94%A2%E5%93%81%E9%A0%90%E8%A8%82",
   "https://www.toysrus.com.hk/zh-hk/whats-on/new-arrivals/pre-order/",
   "https://www.hobbylandeshop.com/product-category/nproduct_booking",
+  "https://preorder.maytoysonline.com/",
   "https://lastchancetoy.com/collections/beybladex"
 ];
 const presetKeywords = [
   "ux-20",
-  "bx-50"
+  "bx-50",
+  "ux-17",
+  "ux20",
+  "bx50",
+  "ux17"
 ];
 
 const shops = [];
