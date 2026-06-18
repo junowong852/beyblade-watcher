@@ -11,10 +11,7 @@ const presetShopUrls = [
 const presetKeywords = [
   "ux-20",
   "bx-50",
-  "ux-17",
-  "ux20",
-  "bx50",
-  "ux17"
+  "ux-17"
 ];
 
 const shops = [];
